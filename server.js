@@ -2,15 +2,13 @@
 const express = require('express');
 const fs = require('fs');
 const uuid = require('uuid/v1');
-
 //Paths
 const path = require('path');
 const datab = require('./db/db.json');
 let dpath = path.join(__dirname, '/db/db.json');
-
 //Assigned to operate on port 3001
 var app = express();
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 
 //link to public folder 
 app.use(express.static('public'));
@@ -41,6 +39,7 @@ app.post("/api/notes", function(req, res) {
   })
   res.json(newtask);
 });
+
 
 //Functionality for deleting notes
 app.delete("/api/notes/:id" ,function(req,res){
