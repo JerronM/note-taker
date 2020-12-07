@@ -15,3 +15,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 <img src="hhttps://github.com/JerronM/note-taker/blob/main/misc/screenshot1.png">
 <img src="hhttps://github.com/JerronM/note-taker/blob/main/misc/screenshot2.png">
 
+
+## Links
+Repo: https://github.com/JerronM/note-taker
+Heroku App: https://blooming-harbor-44262.herokuapp.com/notes
